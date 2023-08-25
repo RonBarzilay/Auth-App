@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <i class="fas fa-key fa-6x"></i>
+
+        <div class="card featured">
+            <div class="card-header">Featured</div>
+            <ul class="list-group list-group-flush">
+                <% usersWithPosts.forEach(function(user){ %>
+                <li class="list-group-item"><%= user.userPost %></li>
+                <% }) %>
+                <li class="list-group-item">Elon Musk is my hero.</li>
+            </ul>
+        </div>
+
+        <hr />
+
+        <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+        <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Post</a>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

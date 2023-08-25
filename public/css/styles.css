@@ -1,0 +1,31 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.post-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.featured{
+  margin-top: 2.5rem;
+}
+
+.fa-key:hover{
+  transition: all .8s ease-in-out;
+  transform: scale(1.1);
+}
+
+li:hover{
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.009);
+  background-color: rgb(241, 239, 239, 0.5);
+}
